@@ -322,8 +322,8 @@ div[class="clients-icons"]>svg {
     display: flex;
     flex-direction: column;
     padding-bottom: 60px;
-    padding-left: 15px;
-}
+    padding: 0 15px;
+} 
 
 .footer-logo {
     font-family: 'Raleway';
@@ -376,7 +376,7 @@ display: flex;
 
 .sm-footer {
     margin: 72px 0 0 70px;
-    line-height: 1.1428em;
+    line-height: 1.14em;
     font-size: 14px;
     color: var(--brand-color);
 }
