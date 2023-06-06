@@ -111,6 +111,10 @@ a {
     color: var(--brand-color-logo);
 }
 
+.icon-nav:hover, .icon-nav:focus {
+    fill: var(--icon-color-blue);
+}
+
 .first-section-background {
     background: linear-gradient(var(--background-photo), var(--background-photo)), url('/images/index-background.jpg');
     background-size: 1600px auto;
