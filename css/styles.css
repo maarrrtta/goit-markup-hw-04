@@ -43,7 +43,7 @@ a {
     letter-spacing: 0.03em;
     color: var(--brand-color-logo);
     text-decoration: none;
-    padding: 24px 0 25px 0;
+    margin: 24px 0 25px 0;
 }
 
 .logo-studio-header {
@@ -61,20 +61,19 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .first-line-agency {
-    padding-left: 47px;
-    padding-right: 46px
+    margin-left: 93px;
+    margin-right: 46px
 }
 
 .first-line-portfolio {
-    padding-right: 46px;
+    margin-right: 46px;
 }
 
 .first-line-contact {
-    padding-right: 371px;
+    margin-right: 345px;
 }
 
 .first-line a {
@@ -236,7 +235,7 @@ box-sizing: border-box;
 
 .fourth-section-block {
     display: inline-block;
-    color: var(--brand-color);
+    background-color: var(--brand-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin: 0 15px;
@@ -265,7 +264,7 @@ figcaption {
     color: var(--brand-color-description);
     display: flex;
     justify-content: center;
-    margin: 10px 0 30px;
+    margin: 10px 0 16px;
     white-space: nowrap;
 }
 
@@ -276,6 +275,7 @@ figcaption {
     margin-top: 16px;
     fill: var(--icon-color);
     fill: currentColor;
+    margin-bottom: 30px;
 }
 
 .icon-fourth {
@@ -288,7 +288,7 @@ figcaption {
 }
 
 .icon-fourth:hover,
-icon-fourth:focus {
+.icon-fourth:focus {
     cursor: pointer;
     background-color: var(--icon-color-blue);
     fill: var(--brand-color);
@@ -306,6 +306,13 @@ icon-fourth:focus {
     display: flex;
     justify-content: space-between;
     fill: var(--icon-color);
+}
+
+.clients-icons-blue:hover,
+.clients-icons-blue:focus {
+    cursor: pointer;
+    fill: var(--icon-color-blue);
+    border-color: var(--icon-color-blue);
 }
 
 div[class="clients-icons"]>svg {
@@ -387,11 +394,6 @@ display: flex;
     margin: 20px 0 100px 70px;
 }
 
-.footer-icons>a {
-    fill: var(--brand-color);
-    padding: 12px;
-}
-
 .footer-sm-icon {
     display: flex;
     background-color: var(--icon-color-footer);
@@ -443,7 +445,6 @@ display: flex;
     flex-wrap: wrap;
     gap: 30px;
     padding: 0 15px;
-    margin: 0 215px;
 }
 
 .portfolio-photo-border{
