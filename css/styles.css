@@ -106,12 +106,13 @@ a {
     color: inherit;
 }
 
-.first-line-contactinfo a:hover,
+.first-line-contactinfo a:hover ,
 .first-line-contactinfo a:focus {
     color: var(--brand-color-logo);
 }
 
-.icon-nav:hover, .icon-nav:focus {
+.first-line-contactinfo a:hover .icon-nav,
+.first-line-contactinfo a:focus .icon-nav {
     fill: var(--icon-color-blue);
 }
 
@@ -278,7 +279,6 @@ figcaption {
     justify-content: center;
     margin-top: 16px;
     fill: var(--icon-color);
-    fill: currentColor;
     margin-bottom: 30px;
 }
 
